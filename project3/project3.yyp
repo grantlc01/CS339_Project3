@@ -35,6 +35,7 @@
   "name":"project3",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"sand_background","path":"sprites/sand_background/sand_background.yy",},},
     {"id":{"name":"sTestSprite","path":"sprites/sTestSprite/sTestSprite.yy",},},
   ],
   "resourceType":"GMProject",
