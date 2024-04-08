@@ -19,5 +19,6 @@
   "ResourceOrderSettings":[
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"sand_background","order":1,"path":"sprites/sand_background/sand_background.yy",},
+    {"name":"sWall","order":2,"path":"sprites/sWall/sWall.yy",},
   ],
 }

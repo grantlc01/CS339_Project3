@@ -34,11 +34,12 @@
   },
   "name":"project3",
   "resources":[
-    {"id":{"name":"Sonic_ninja","path":"objects/Sonic_ninja/Sonic_ninja.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+    {"id":{"name":"Sonic_ninja","path":"objects/Sonic_ninja/Sonic_ninja.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sand_background","path":"sprites/sand_background/sand_background.yy",},},
     {"id":{"name":"sTestSprite","path":"sprites/sTestSprite/sTestSprite.yy",},},
+    {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
