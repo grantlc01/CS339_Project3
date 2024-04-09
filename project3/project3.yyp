@@ -38,6 +38,8 @@
     {"id":{"name":"Sonic_ninja","path":"objects/Sonic_ninja/Sonic_ninja.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sand_background","path":"sprites/sand_background/sand_background.yy",},},
+    {"id":{"name":"sMainCharacter","path":"sprites/sMainCharacter/sMainCharacter.yy",},},
+    {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"sTestSprite","path":"sprites/sTestSprite/sTestSprite.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
   ],
