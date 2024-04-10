@@ -17,7 +17,9 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"heroObject","order":2,"path":"objects/heroObject/heroObject.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"dogs","order":10,"path":"sprites/dogs/dogs.yy",},
     {"name":"sand_background","order":1,"path":"sprites/sand_background/sand_background.yy",},
     {"name":"sEnemy","order":4,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"sMainCharacter","order":3,"path":"sprites/sMainCharacter/sMainCharacter.yy",},
