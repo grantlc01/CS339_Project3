@@ -33,6 +33,7 @@ if( hascontrol)
 	    // is there space for me to move right?
 	    if !place_meeting(x+normalSpeed, y, oWall) {
 	        hspeed = normalSpeed
+			image_xscale = 1
 			while(normalSpeed < finalspeed)
 			{
 				normalSpeed++
@@ -46,6 +47,7 @@ if( hascontrol)
 	    // is there space for me to move left?
 	    if !place_meeting(x-normalSpeed, y, oWall) {
 	        hspeed = -normalSpeed
+			image_xscale = -1
 	    }
 	}
 
