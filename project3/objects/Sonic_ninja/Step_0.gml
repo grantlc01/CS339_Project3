@@ -26,7 +26,7 @@ else if !place_meeting(x, y+normalGravity, oWall) {
     gravity = normalGravity;
 }
 
-if(hascontrol)
+if( hascontrol)
 {
 	// moving right
 	if keyboard_check_direct(vk_right) or keyboard_check(ord("D")) {
@@ -75,13 +75,13 @@ if(!place_meeting(x,y+1,oWall))
 {
 	
 	image_speed = 0.5;
-	sprite_index= Aidel;
+	sprite_index= sMainCharacter;
 	
 	
 	
 	if (sign(vspeed)>0){
 	
-		sprite_index = Ajumping;   // JUMPING ANIMATION
+		sprite_index = sMainCharacter;   // JUMPING ANIMATION
 		
 	}
 	
@@ -100,12 +100,12 @@ else
 		
 		
 		if(hspeed >0){
-			sprite_index=Arunning;
+			sprite_index=sMainCharacter;
 		}
 		
 		
 		else{
-			sprite_index= Aidel;
+			sprite_index= sMainCharacter;
 		}
 	}
 	
