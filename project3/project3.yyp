@@ -36,7 +36,9 @@
   "resources":[
     {"id":{"name":"heroObject","path":"objects/heroObject/heroObject.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+    {"id":{"name":"Snake","path":"objects/Snake/Snake.yy",},},
     {"id":{"name":"Sonic_ninja","path":"objects/Sonic_ninja/Sonic_ninja.yy",},},
+    {"id":{"name":"Throwattack","path":"objects/Throwattack/Throwattack.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"dogs","path":"sprites/dogs/dogs.yy",},},
     {"id":{"name":"sand_background","path":"sprites/sand_background/sand_background.yy",},},
