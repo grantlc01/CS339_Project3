@@ -1,5 +1,5 @@
 // keep me out of things horizontally
-if place_meeting(x+hspeed, y, oWall) {
+if place_meeting(x+hspeed, y, wall) {
     if hspeed < 0 {  // i'm about to hit on the left
         //move_contact_solid(180, hspeed)
     }
@@ -10,7 +10,7 @@ if place_meeting(x+hspeed, y, oWall) {
 }
 
 // keep me out of things vertically
-if place_meeting(x, y+vspeed+gravity, oWall) {
+if place_meeting(x, y+vspeed+gravity, wall) {
     if vspeed < 0 {  // i'm about to hit on the top
         //move_contact_solid(90, vspeed)
     }
@@ -22,7 +22,7 @@ if place_meeting(x, y+vspeed+gravity, oWall) {
     vspeed = 0
 }
 // if i'm off the ground, give me gravity
-else if !place_meeting(x, y+normalGravity, oWall) {
+else if !place_meeting(x, y+normalGravity, wall) {
     gravity = normalGravity;
 }
 
@@ -31,30 +31,22 @@ if( hascontrol)
 	// moving right
 	if keyboard_check_direct(vk_right) or keyboard_check(ord("D")) {
 	    // is there space for me to move right?
-	    if !place_meeting(x+normalSpeed, y, oWall) {
+	    if !place_meeting(x+normalSpeed, y, wall) {
 	        hspeed = normalSpeed
-			image_xscale = 1
-			while(normalSpeed < finalspeed)
-			{
-				normalSpeed++
-			}
-			
 	    }
-		hspeed *=drag 
 	}
 	// moving left
 	if keyboard_check_direct(vk_left) or keyboard_check(ord("A")) {
 	    // is there space for me to move left?
-	    if !place_meeting(x-normalSpeed, y, oWall) {
+	    if !place_meeting(x-normalSpeed, y, wall) {
 	        hspeed = -normalSpeed
-			image_xscale = -1
 	    }
 	}
 
 	// jumping
 	// am i on the ground, and is there space above my head to jump?
-	if keyboard_check_pressed(vk_space) and place_meeting(x, y+normalGravity, oWall)
-	and !place_meeting(x, y-jumpSpeed, oWall) {
+	if keyboard_check_pressed(vk_space) and place_meeting(x, y+normalGravity, wall)
+	and !place_meeting(x, y-jumpSpeed, wall) {
 	    vspeed = -jumpSpeed
 		image_index = 0;
 	}
@@ -71,17 +63,17 @@ hspeed *= .9
 // animation
 
 
-if(!place_meeting(x,y+1,oWall))
+if(!place_meeting(x,y+1,wall))
 {
 	
 	image_speed = 0.5;
-	sprite_index= sMainCharacter;
+	sprite_index= Assualt_Idel;
 	
 	
 	
 	if (sign(vspeed)>0){
 	
-		sprite_index = sMainCharacter;   // JUMPING ANIMATION
+		sprite_index = Assualt_Jumping;   // JUMPING ANIMATION
 		
 	}
 	
@@ -100,12 +92,12 @@ else
 		
 		
 		if(hspeed >0){
-			sprite_index=sMainCharacter;
+			sprite_index=Assualt_RunningR;
 		}
 		
 		
 		else{
-			sprite_index= sMainCharacter;
+			sprite_index= Assualt_Idel;
 		}
 	}
 	
