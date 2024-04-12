@@ -38,6 +38,7 @@
     {"$GMObjectProperty":"","%Name":"Arunning","filters":[],"listItems":[],"multiselect":false,"name":"Arunning","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sMainCharacter","varType":5,},
     {"$GMObjectProperty":"","%Name":"Aidel","filters":[],"listItems":[],"multiselect":false,"name":"Aidel","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sMainCharacter","varType":5,},
     {"$GMObjectProperty":"","%Name":"Ajumping","filters":[],"listItems":[],"multiselect":false,"name":"Ajumping","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sMainCharacter","varType":5,},
+    {"$GMObjectProperty":"","%Name":"hp","filters":[],"listItems":[],"multiselect":false,"name":"hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
