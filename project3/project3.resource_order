@@ -18,6 +18,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"Snake","order":2,"path":"objects/Snake/Snake.yy",},
+    {"name":"Throwattack","order":3,"path":"objects/Throwattack/Throwattack.yy",},
     {"name":"sand_background","order":1,"path":"sprites/sand_background/sand_background.yy",},
     {"name":"sEnemy","order":4,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"sMainCharacter","order":3,"path":"sprites/sMainCharacter/sMainCharacter.yy",},
