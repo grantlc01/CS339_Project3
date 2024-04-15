@@ -1,1 +1,1 @@
-instance_destroy()
+hp = hp - 4

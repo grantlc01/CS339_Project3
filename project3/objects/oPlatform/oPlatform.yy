@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oWall",
+  "%Name":"oPlatform",
   "eventList":[],
   "managed":true,
-  "name":"oWall",
+  "name":"oPlatform",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWall",
-    "path":"sprites/sWall/sWall.yy",
+    "name":"sPlatform",
+    "path":"sprites/sPlatform/sPlatform.yy",
   },
   "spriteMaskId":null,
   "visible":true,
