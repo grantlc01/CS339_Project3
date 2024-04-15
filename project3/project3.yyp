@@ -44,6 +44,8 @@
     {"id":{"name":"sand_background","path":"sprites/sand_background/sand_background.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"sMainCharacter","path":"sprites/sMainCharacter/sMainCharacter.yy",},},
+    {"id":{"name":"sThrow","path":"sprites/sThrow/sThrow.yy",},},
+    {"id":{"name":"sSwing","path":"sprites/sSwing/sSwing.yy",},},
     {"id":{"name":"sTestSprite","path":"sprites/sTestSprite/sTestSprite.yy",},},
     {"id":{"name":"sThrowAttack","path":"sprites/sThrowAttack/sThrowAttack.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},

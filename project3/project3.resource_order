@@ -23,6 +23,8 @@
     {"name":"sand_background","order":1,"path":"sprites/sand_background/sand_background.yy",},
     {"name":"sEnemy","order":4,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"sMainCharacter","order":3,"path":"sprites/sMainCharacter/sMainCharacter.yy",},
+    {"name":"sThrow","order":7,"path":"sprites/sThrow/sThrow.yy",},
+    {"name":"sSwing","order":6,"path":"sprites/sSwing/sSwing.yy",},
     {"name":"sThrowAttack","order":5,"path":"sprites/sThrowAttack/sThrowAttack.yy",},
     {"name":"sWall","order":2,"path":"sprites/sWall/sWall.yy",},
   ],
