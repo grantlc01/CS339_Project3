@@ -16,9 +16,16 @@
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+<<<<<<< HEAD
     {"name":"oPlatform","order":5,"path":"objects/oPlatform/oPlatform.yy",},
     {"name":"Snake","order":2,"path":"objects/Snake/Snake.yy",},
     {"name":"Sonic_ninja","order":1,"path":"objects/Sonic_ninja/Sonic_ninja.yy",},
+=======
+    {"name":"oPlatformRight","order":7,"path":"objects/oPlatformRight/oPlatformRight.yy",},
+    {"name":"oPlatform","order":5,"path":"objects/oPlatform/oPlatform.yy",},
+    {"name":"oPlatformLeft","order":6,"path":"objects/oPlatformLeft/oPlatformLeft.yy",},
+    {"name":"Snake","order":2,"path":"objects/Snake/Snake.yy",},
+>>>>>>> 954d3572f8c1aa2d6467d78bd74fafdbe0ee9603
     {"name":"Speed_Boostobj","order":4,"path":"objects/Speed_Boostobj/Speed_Boostobj.yy",},
     {"name":"Throwattack","order":3,"path":"objects/Throwattack/Throwattack.yy",},
     {"name":"PlayerState_Attack_Combo","order":2,"path":"scripts/PlayerState_Attack_Combo/PlayerState_Attack_Combo.yy",},
@@ -27,6 +34,9 @@
     {"name":"sEnemy","order":4,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"sMainCharacter","order":3,"path":"sprites/sMainCharacter/sMainCharacter.yy",},
     {"name":"speed_boost","order":8,"path":"sprites/speed_boost/speed_boost.yy",},
+    {"name":"sPlatform","order":9,"path":"sprites/sPlatform/sPlatform.yy",},
+    {"name":"sPlatformLeft","order":10,"path":"sprites/sPlatformLeft/sPlatformLeft.yy",},
+    {"name":"sPlatformRight","order":11,"path":"sprites/sPlatformRight/sPlatformRight.yy",},
     {"name":"sSwing","order":6,"path":"sprites/sSwing/sSwing.yy",},
     {"name":"sSwingHB","order":9,"path":"sprites/sSwingHB/sSwingHB.yy",},
     {"name":"sThrow","order":7,"path":"sprites/sThrow/sThrow.yy",},

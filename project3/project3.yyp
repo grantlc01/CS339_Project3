@@ -35,7 +35,13 @@
   "name":"project3",
   "resources":[
     {"id":{"name":"heroObject","path":"objects/heroObject/heroObject.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},},
+=======
+    {"id":{"name":"oPlatformRight","path":"objects/oPlatformRight/oPlatformRight.yy",},},
+    {"id":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},},
+    {"id":{"name":"oPlatformLeft","path":"objects/oPlatformLeft/oPlatformLeft.yy",},},
+>>>>>>> 954d3572f8c1aa2d6467d78bd74fafdbe0ee9603
     {"id":{"name":"Snake","path":"objects/Snake/Snake.yy",},},
     {"id":{"name":"Sonic_ninja","path":"objects/Sonic_ninja/Sonic_ninja.yy",},},
     {"id":{"name":"Speed_Boostobj","path":"objects/Speed_Boostobj/Speed_Boostobj.yy",},},
@@ -49,6 +55,9 @@
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"sMainCharacter","path":"sprites/sMainCharacter/sMainCharacter.yy",},},
     {"id":{"name":"speed_boost","path":"sprites/speed_boost/speed_boost.yy",},},
+    {"id":{"name":"sPlatform","path":"sprites/sPlatform/sPlatform.yy",},},
+    {"id":{"name":"sPlatformLeft","path":"sprites/sPlatformLeft/sPlatformLeft.yy",},},
+    {"id":{"name":"sPlatformRight","path":"sprites/sPlatformRight/sPlatformRight.yy",},},
     {"id":{"name":"sSwing","path":"sprites/sSwing/sSwing.yy",},},
     {"id":{"name":"sSwingHB","path":"sprites/sSwingHB/sSwingHB.yy",},},
     {"id":{"name":"sTestSprite","path":"sprites/sTestSprite/sTestSprite.yy",},},
