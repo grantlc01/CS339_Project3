@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"Script3",
+  "%Name":"PlayerState_Attack_Combo",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script3",
+  "name":"PlayerState_Attack_Combo",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

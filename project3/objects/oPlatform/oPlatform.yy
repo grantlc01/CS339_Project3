@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlatform",
-    "path":"sprites/sPlatform/sPlatform.yy",
+    "name":"sWall",
+    "path":"sprites/sWall/sWall.yy",
   },
   "spriteMaskId":null,
   "visible":true,

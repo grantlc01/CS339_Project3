@@ -1,30 +1,3 @@
-// keep me out of things horizontally
-if place_meeting(x+hspeed, y, oPlatform) {
-    if hspeed < 0 {  // i'm about to hit on the left
-     
-    }
-    else { // i'm about to hit on the right
- 
-    }
-    hspeed = 0
-}
-
-// keep me out of things vertically
-if place_meeting(x, y+vspeed+gravity, oPlatform) {
-    if vspeed < 0 {  // i'm about to hit on the top
-     
-    }
-    else {  // i'm about to hit on the bottom
-	
-        gravity = 0
-    }
-    vspeed = 0
-}
-// if i'm off the ground, give me gravity
-else if !place_meeting(x, y+normalGravity, oPlatform) {
-    gravity = normalGravity;
-}
-
 if( hascontrol)
 {
 	// moving right
@@ -57,6 +30,8 @@ if( hascontrol)
 	    vspeed = -jumpSpeed
 		image_index = 0;
 	}
+	
+	keyAttack = keyboard_check_pressed(ord("q"))
 }
 else
 {
@@ -67,62 +42,12 @@ else
 
 hspeed *= .9
 
-// animation
-
-
-if(!place_meeting(x,y+1,oPlatform))
-{
-	
-	image_speed = 0.5;
-	sprite_index= sMainCharacter;
-	
-	
-	
-	if (sign(vspeed)>0){
-	
-		sprite_index = sMainCharacter;   // JUMPING ANIMATION
-		
-	}
-	
-	
-	/*
-	sprite_index= heroSpriteA
-	image_speed =0;
-	if(sign(normalGravity)>0) image_index=1; else image_index=0;
-	
-	*/
+switch (state)
+{	
+	case PLAYERSTATE.FREE: PlayerState_Free(); break;
+	case PLAYERSTATE.ATTACK_SLASH: PlayerState_Attack_Slash(); break;
+	case PLAYERSTATE.ATTACK_COMBO: PlayerState_Attack_Combo(); break;
 }
-else
-{
-
-	if(hspeed != 0){
-		
-		
-		if(hspeed >0){
-			sprite_index=sMainCharacter;
-		}
-		
-		
-		else{
-			sprite_index= sMainCharacter;
-		}
-	}
-	
-	
-	/*
-	image_speed = 1;
-	if(normalSpeed==0)
-	{
-		sprite_index = heroSpriteR;
-	}
-	else
-	{
-		sprite_index = heroSpriteA;
-	}
-	
-	*/
-}
-if (hspeed <= - normalSpeed) image_xscale = - image_yscale;
 
 
 
