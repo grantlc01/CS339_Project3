@@ -35,13 +35,10 @@
   "name":"project3",
   "resources":[
     {"id":{"name":"heroObject","path":"objects/heroObject/heroObject.yy",},},
-<<<<<<< HEAD
     {"id":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},},
-=======
     {"id":{"name":"oPlatformRight","path":"objects/oPlatformRight/oPlatformRight.yy",},},
     {"id":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},},
     {"id":{"name":"oPlatformLeft","path":"objects/oPlatformLeft/oPlatformLeft.yy",},},
->>>>>>> 954d3572f8c1aa2d6467d78bd74fafdbe0ee9603
     {"id":{"name":"Snake","path":"objects/Snake/Snake.yy",},},
     {"id":{"name":"Sonic_ninja","path":"objects/Sonic_ninja/Sonic_ninja.yy",},},
     {"id":{"name":"Speed_Boostobj","path":"objects/Speed_Boostobj/Speed_Boostobj.yy",},},
