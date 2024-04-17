@@ -12,7 +12,7 @@ function PlayerState_Attack_Slash(){
 	mask_index = sSwing
 	var HitByAttackNow = ds_list_create();
 	var hits = instance_place_list(x,y,Snake,HitByAttackNow,false);
-	if (hits > o)
+	if (hits > 0)
 	{
 		for (var i =0; i < hits; i++)
 		{

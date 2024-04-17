@@ -1,1 +1,1 @@
-instance_destroy()
+hpSnake-=2
