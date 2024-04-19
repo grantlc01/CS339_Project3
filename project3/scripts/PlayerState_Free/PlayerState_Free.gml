@@ -82,6 +82,6 @@ else
 }
 if (hspeed <= - normalSpeed) image_xscale = - image_yscale;
 
+	if (key_attack) state = PLAYERSTATE.ATTACK_SLASH;
 }
 
-if (KeyAttack) state = PLAYERSTATE.ATTACK_SLASH;

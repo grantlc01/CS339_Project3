@@ -31,7 +31,7 @@ if( hascontrol)
 		image_index = 0;
 	}
 	
-	keyAttack = keyboard_check_pressed(ord("q"))
+	key_Attack = keyboard_check_pressed(ord("q"))
 }
 else
 {

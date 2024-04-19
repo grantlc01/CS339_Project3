@@ -22,7 +22,7 @@ function PlayerState_Attack_Slash(){
 				ds_list_add(HitByAttackNow,hitID);
 				with(hitID)
 				{
-					EnemyHit(2)
+					hpSnake =- 2*vspeed;
 				}
 			}
 		}

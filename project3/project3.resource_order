@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"EnemyHit","order":1,"path":"scripts/EnemyHit/EnemyHit.yy",},
+  ],
 }
