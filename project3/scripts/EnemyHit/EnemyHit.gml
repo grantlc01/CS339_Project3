@@ -7,11 +7,11 @@ function EnemyHit(){
 	flash = true
 	if (hp > 0)
 	{
-		state = ENEMYSTATE.HIT;
+		//state = ENEMYSTATE.HIT;
 		hitnow = true
 	}
 	else
 	{
-		state = ENEMYSTATE.DEAD;
+		//state = ENEMYSTATE.DEAD;
 	}
 }

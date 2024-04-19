@@ -1,4 +1,5 @@
-key_attack = keyboard_check_pressed(ord("q"))
+state = PLAYERSTATE.FREE;
+hitByAttack = ds_list_create();
 enum PLAYERSTATE
 {
 	FREE,

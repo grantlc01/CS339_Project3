@@ -1,5 +1,5 @@
 if( hascontrol)
-{
+{ 
 	// moving right
 	if keyboard_check_direct(vk_right) or keyboard_check(ord("D")) {
 	    // is there space for me to move right?
@@ -31,7 +31,10 @@ if( hascontrol)
 		image_index = 0;
 	}
 	
-	key_Attack = keyboard_check_pressed(ord("q"))
+        if keyboard_check_pressed(ord("q"))
+		{
+			key_attack = true;
+		}
 }
 else
 {
@@ -42,7 +45,7 @@ else
 
 hspeed *= .9
 
-switch (state)
+switch(state)
 {	
 	case PLAYERSTATE.FREE: PlayerState_Free(); break;
 	case PLAYERSTATE.ATTACK_SLASH: PlayerState_Attack_Slash(); break;

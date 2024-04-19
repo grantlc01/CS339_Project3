@@ -1,5 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerState_Free(){
 	// keep me out of things horizontally
 	if place_meeting(x+hspeed, y, oPlatform) {
@@ -32,23 +30,17 @@ if(!place_meeting(x,y+1,oPlatform))
 {
 	
 	image_speed = 0.5;
-	sprite_index= sMainCharacter;
+	sprite_index= Aidel;
 	
 	
 	
 	if (sign(vspeed)>0){
 	
-		sprite_index = sMainCharacter;   // JUMPING ANIMATION
+		sprite_index = Ajumping;   // JUMPING ANIMATION
 		
 	}
 	
 	
-	/*
-	sprite_index= heroSpriteA
-	image_speed =0;
-	if(sign(normalGravity)>0) image_index=1; else image_index=0;
-	
-	*/
 }
 else
 {
@@ -57,28 +49,15 @@ else
 		
 		
 		if(hspeed >0){
-			sprite_index=sMainCharacter;
+			sprite_index=Arunning;
 		}
 		
 		
 		else{
-			sprite_index= sMainCharacter;
+			sprite_index= Aidel;
 		}
 	}
 	
-	
-	/*
-	image_speed = 1;
-	if(normalSpeed==0)
-	{
-		sprite_index = heroSpriteR;
-	}
-	else
-	{
-		sprite_index = heroSpriteA;
-	}
-	
-	*/
 }
 if (hspeed <= - normalSpeed) image_xscale = - image_yscale;
 
