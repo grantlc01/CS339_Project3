@@ -2,5 +2,6 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"EnemyHit","order":1,"path":"scripts/EnemyHit/EnemyHit.yy",},
+    {"name":"animation_end","order":2,"path":"scripts/animation_end/animation_end.yy",},
   ],
 }

@@ -31,10 +31,8 @@ if( hascontrol)
 		image_index = 0;
 	}
 	
-        if keyboard_check_pressed(ord("q"))
-		{
-			key_attack = true;
-		}
+        
+		
 }
 else
 {
@@ -42,7 +40,7 @@ else
 	jumpSpeed = 0;
 }
 // friction to slow me down horizontally
-
+key_attack = keyboard_check_pressed(ord("Q"));
 hspeed *= .9
 
 switch(state)

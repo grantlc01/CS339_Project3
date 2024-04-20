@@ -1,5 +1,5 @@
 state = PLAYERSTATE.FREE;
-hitByAttack = ds_list_create();
+hit_by_attack = ds_list_create();
 enum PLAYERSTATE
 {
 	FREE,

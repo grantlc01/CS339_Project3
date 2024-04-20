@@ -53,6 +53,9 @@
     "name":"sMainCharacter",
     "path":"sprites/sMainCharacter/sMainCharacter.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sMainCharacter",
+    "path":"sprites/sMainCharacter/sMainCharacter.yy",
+  },
   "visible":true,
 }

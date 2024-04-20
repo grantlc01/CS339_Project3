@@ -9,18 +9,19 @@ function PlayerState_Attack_Slash(){
 	{
 		sprite_index = sSwing;
 		image_index = 0;
-		ds_list_clear(HitByAttack)
+		ds_list_clear(hit_by_attack)
 	}
 	
-	mask_index = sSwing
+	mask_index = sSwingHB
 	var HitByAttackNow = ds_list_create();
 	var hits = instance_place_list(x,y,Snake,HitByAttackNow,false);
 	if (hits > 0)
 	{
 		for (var i =0; i < hits; i++)
 		{
-			var hitID = HitByAttackNow[ i];
-			if(ds_list_find_index(HitByAttack,hitID)== -1)
+			
+			var hitID = HitByAttackNow[|i];
+			if(ds_list_find_index(hit_by_attack,hitID)== -1)
 			{
 				ds_list_add(HitByAttackNow,hitID);
 				with(hitID)
@@ -31,5 +32,11 @@ function PlayerState_Attack_Slash(){
 		}
 	}
 	ds_list_destroy(HitByAttackNow);
-	mask_index = sMainCharacter
+	mask_index = Aidel;
+	
+	if(animation_end())
+	{
+		sprite_index = Aidel;
+		state = PLAYERSTATE.FREE;
+	}
 }
