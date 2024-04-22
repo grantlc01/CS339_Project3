@@ -1,7 +1,9 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"EnemyHit","order":1,"path":"scripts/EnemyHit/EnemyHit.yy",},
     {"name":"animation_end","order":2,"path":"scripts/animation_end/animation_end.yy",},
+    {"name":"EnemyHit","order":1,"path":"scripts/EnemyHit/EnemyHit.yy",},
+    {"name":"sIdol","order":2,"path":"sprites/sIdol/sIdol.yy",},
+    {"name":"sRunning","order":1,"path":"sprites/sRunning/sRunning.yy",},
   ],
 }
