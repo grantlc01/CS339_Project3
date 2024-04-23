@@ -23,7 +23,7 @@ if place_meeting(x, y+vspeed+gravity, wall) {
 }
 // if i'm off the ground, give me gravity
 else if !place_meeting(x, y+normalGravity, wall) {
-    gravity = normalGravity;
+    gravity = normalGravity
 }
 
 if( hascontrol)
@@ -67,13 +67,13 @@ if(!place_meeting(x,y+1,wall))
 {
 	
 	image_speed = 0.5;
-	sprite_index= Assualt_Idel;
+	sprite_index= heroSprite;
 	
 	
 	
 	if (sign(vspeed)>0){
 	
-		sprite_index = Assualt_Jumping;   // JUMPING ANIMATION
+		sprite_index = heroSpriteA;   // JUMPING ANIMATION
 		
 	}
 	
@@ -87,17 +87,17 @@ if(!place_meeting(x,y+1,wall))
 }
 else
 {
-
+	
 	if(hspeed != 0){
 		
 		
 		if(hspeed >0){
-			sprite_index=Assualt_RunningR;
+			sprite_index=heroSpriteR;
 		}
 		
 		
 		else{
-			sprite_index= Assualt_Idel;
+			sprite_index= heroSprite;
 		}
 	}
 	
@@ -115,10 +115,7 @@ else
 	
 	*/
 }
-//if (hspeed <= 0) image_xscale = - image_xscale;
-
-
-
+if (normalSpeed !=0) image_xscale= sign(normalSpeed);
 
 
 

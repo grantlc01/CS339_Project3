@@ -1,5 +1,0 @@
-room = Level3
-
-
-
-
