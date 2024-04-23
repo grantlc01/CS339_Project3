@@ -1,1 +1,4 @@
-if(hp <= 0){Script3()}
+if (hp = 0)
+{
+	death()
+}
