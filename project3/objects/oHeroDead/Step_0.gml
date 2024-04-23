@@ -15,7 +15,7 @@ if(done==0)
 	
 	if place_meeting(x, y+vspeed+gravity, oPlatform) {
 		
-		if(vspeed > 0)
+		if(normalSpeed > 0)
 		{
 			done=1;
 			image_index = 1;

@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function death(){
 
-with(Sonic_ninja) instance_destroy();
+
 instance_change(oHeroDead,true);
 
 

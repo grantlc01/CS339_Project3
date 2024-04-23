@@ -30,8 +30,10 @@ if(!place_meeting(x,y+1,oPlatform))
 {
 	
 	image_speed = 0.5;
+	if(vspeed = 0)
+	{
 	sprite_index= Aidel;
-	
+	}
 	
 	
 	if (sign(vspeed)>0){

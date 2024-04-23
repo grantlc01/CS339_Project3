@@ -3,7 +3,32 @@
 function PlayerState_Attack_Slash(){
 	
 	
+	// keep me out of things horizontally
+	if place_meeting(x+hspeed, y, oPlatform) {
+	    if hspeed < 0 {  // i'm about to hit on the left
+     
+	    }
+	    else { // i'm about to hit on the right
+ 
+	    }
+	    hspeed = 0
+	}
+
+	// keep me out of things vertically
+	if place_meeting(x, y+vspeed+gravity, oPlatform) {
+	    if vspeed < 0 {  // i'm about to hit on the top
+     
+	    }
+	    else {  // i'm about to hit on the bottom
 	
+	        gravity = 0
+	    }
+	    vspeed = 0
+	}
+	// if i'm off the ground, give me gravity
+	else if !place_meeting(x, y+normalGravity, oPlatform) {
+	    gravity = normalGravity;
+	}
 
 	if(sprite_index != sSwing)
 	{
@@ -14,7 +39,7 @@ function PlayerState_Attack_Slash(){
 	
 	mask_index = sSwingHB
 	var HitByAttackNow = ds_list_create();
-	var hits = instance_place_list(x,y,Snake,HitByAttackNow,false);
+	var hits = instance_place_list(x,y,oBadGuy,HitByAttackNow,false);
 	if (hits > 0)
 	{
 		for (var i =0; i < hits; i++)
@@ -26,7 +51,7 @@ function PlayerState_Attack_Slash(){
 				ds_list_add(HitByAttackNow,hitID);
 				with(hitID)
 				{
-					hpSnake =- 2*vspeed;
+					bad_guy_HP =- 2*vspeed;
 				}
 			}
 		}

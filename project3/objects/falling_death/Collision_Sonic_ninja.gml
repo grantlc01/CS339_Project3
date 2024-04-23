@@ -1,0 +1,1 @@
+Script2(TRANS_MODE.RESTART);
