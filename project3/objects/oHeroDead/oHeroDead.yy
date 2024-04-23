@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sHeroDead",
-    "path":"sprites/sHeroDead/sHeroDead.yy",
+    "name":"sdead",
+    "path":"sprites/sdead/sdead.yy",
   },
   "spriteMaskId":null,
   "visible":true,
