@@ -3,6 +3,7 @@
   "%Name":"Throwattack",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Snake","path":"objects/Snake/Snake.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"oBadGuy","path":"objects/oBadGuy/oBadGuy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Throwattack",
